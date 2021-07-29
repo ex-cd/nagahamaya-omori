@@ -25,8 +25,16 @@
   <main class="bg-white font-montserrat sticky-container">
     <header class="h-16 xl:h-20 flex items-center bg-white z-50" style="position: sticky; top: 0; ">
       <div class=" container mx-auto px-6 sm:px-12 flex items-center justify-between">
+
         <div class="uppercase text-red-900 font-black">
-          <a href="index.html">長浜や　大森店</a>
+          <div class="invisible md:visible">
+            <div class="hidden md:inline-block pt-8">
+              <a href="index.html">博多ラーメン長浜や　大森店</a>
+            </div>
+          </div>
+          <div class="visible md:invisible center">
+            <a href="index.html">長浜や　大森店</a>
+          </div>
         </div>
         <div class="flex items-center">
           <div class="grid grid-cols-3 gap-4">
@@ -38,21 +46,20 @@
       </div>
     </header>
 
-    <div class="container mx-auto px-6 sm:px-12 relative flex flex-col sm:flex-row ">
-      <div class="sm:pt-8 lg:pt-40 pb-48 sm:pb-16 lg:pb-32 relative z-30">
+    <div class="container mx-auto px-6 sm:px-12 relative flex sm:flex-row ">
+      <div class="pb-0 sm:pt-8 pb-0 lg:pt-40 pb-48  relative z-30 bg-local bg-center w-screen bg-no-repeat"
+        style="background-image: url(./top.jpg)">
         <h1
-          class="uppercase font-black text-white leading-none tracking-wider mb-6 mt-4 text-5xl lg:text-4xl xl:text-6xl bg-white bg-opacity-30 p-2">
+          class="uppercase font-black text-white leading-none tracking-wider mb-6 mt-4 text-4xl lg:text-4xl xl:text-6xl bg-white bg-opacity-30 p-2"
+          style="text-shadow: 1px 1px 2px #666666">
           博多ラーメン長浜や 大森店</h1>
-        <p class="text-white font-roboto text-lg  " style="text-shadow: 1px 1px 2px #f0f8ff; ">
+        <p class="text-white font-roboto text-lg pl-4 " style="text-shadow: 1px 1px 2px #f0f8ff; ">
           さっぱり系の豚骨スープと、歯応えのいい極細麺の相性が抜群</p>
       </div>
-      <div class="bg-gray-300">
-        <img class="absolute left-0 right-0 w-full h-full object-cover z-10" src="./top.jpg">
-        <!-- <img class="absolute left-0 right-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"> -->
-      </div>
     </div>
+
     <section class="bg-white">
-      <div class="max-w-5xl px-6 py-16 mx-auto">
+      <div class="max-w-6xl px-6 py-16 mx-auto">
         <div class="items-center md:flex md:space-x-6">
           <div class="md:w-1/2">
             <div class="flex items-center justify-center">
@@ -63,13 +70,15 @@
             </div>
           </div>
 
-          <div class="mt-8 md:mt-0 md:w-1/2">
-            <h3 class="text-5xl pl-8 font-semibold text-gray-800">博多ラーメン <br> 長浜や</h3>
-            <p class="pt-20 pl-8 text-xl max-w-md mt-4 text-gray-600">
-              あっさりめのとんこつスープに絡む細麺で美味しく
-              召し上がっていただける通常の博多ラーメン以外にも、
-              つけ麵や正油ラーメン、チャーハンや各種おつまみ、
-              トッピングなどの様々なメニューをご用意しております。</p>
+          <div class="mt-8 md:mt-0 md:w-1/2 bg-local bg-center bg-no-repeat"
+            style="background-image: url(./nagahamayaicon.png)">
+            <h3 class="text-5xl pl-8 font-semibold text-gray-800 leading-relaxed">博多ラーメン <br> 長浜や</h3>
+            <p class="pt-16 pl-8 text-xl max-w-md mt-4 text-gray-600">
+              あっさりめのとんこつスープに絡む細麺が特徴の長浜や白博多ラーメン。<br>
+              辛さのアクセントを加えた「赤博多」やマー油で仕上げた香ばしさ感じる「黒博多」のバリエーションも。<br>
+              つけ麵や正油ラーメン、チャーハンや各種おつまみ、<br>
+              トッピングなどの豊富なメニューをご用意しております。
+            </p>
           </div>
         </div>
       </div>
@@ -129,14 +138,16 @@
           <div class="mt-8 md:mt-0 md:w-1/2">
             <h3 class="mt-4 text-2xl font-semibold text-gray-800 text-center">住所</h3>
             <h3 class="text-gray-600 leading-10 text-center">〒143-0016 東京都大田区大森北１丁目２９番６</h3>
+            <h3 class="mt-4 text-2xl font-semibold text-gray-800 text-center">電話番号</h3>
+            <h3 class="text-gray-600 leading-10 text-center">03-5763-5685</h3>
             <h3 class="mt-4 text-2xl font-semibold text-gray-800 text-center">アクセス</h3>
             <h3 class="text-gray-600 leading-10 text-center">ＪＲ大森駅東口より徒歩5分</h3>
             <h3 class="mt-4 text-2xl font-semibold text-gray-800 text-center">営業時間</h3>
             <h3 class="text-gray-600 leading-10 text-center">
               11:00~23:00<br>
               (政府の要請により営業時間が異なる可能性があります。)</h3>
-              <h3 class="mt-4 text-2xl font-semibold text-gray-800 text-center"> 定休日</h3>
-              <h3 class="text-gray-600 leading-10 text-center">1月1日</h3>
+            <h3 class="mt-4 text-2xl font-semibold text-gray-800 text-center"> 定休日</h3>
+            <h3 class="text-gray-600 leading-10 text-center">1月1日</h3>
           </div>
         </div>
       </div>
@@ -147,7 +158,7 @@
       <div class="max-w-5xl px-6 mx-auto">
         <div class="items-center md:flex md:space-x-6">
           <div class="md:w-1/2">
-            <h3 class="text-4xl font-semibold leading-16 text-black">長浜やのラーメンは <br> 「Uber Eats」で！</h3>
+            <h3 class="pt-8 text-4xl font-semibold leading-16 text-black">長浜やのラーメンは <br> 「Uber Eats」で！</h3>
             <h3 class="text-6xl font-semibold text-black pt-4">Uber &nbsp;<span class="text-white">Eats</span> </h3>
             <p class="text-xl max-w-md mt-4 text-white pt-12">アプリから簡単に料理を注文＆すぐにお届け。<br>
               フードデリバリーサービス「Uber Eats」で<br>
