@@ -46,17 +46,29 @@
       </div>
     </header>
 
-    <div class="container mx-auto px-6 sm:px-12 relative flex sm:flex-row ">
-      <div class="pb-0 sm:pt-8 pb-0 lg:pt-40 pb-48  relative z-30 bg-local bg-right lg:bg-center w-screen bg-no-repeat"
-        style="background-image: url(./top.jpg)">
-        <h1
-          class="uppercase font-black text-white leading-none tracking-wider mb-6 mt-4 text-4xl lg:text-4xl xl:text-6xl bg-white bg-opacity-30 p-2"
-          style="text-shadow: 1px 1px 2px #666666">
-          博多ラーメン長浜や 大森店</h1>
-        <p class="text-white font-roboto text-lg pl-4 " style="text-shadow: 1px 1px 2px #f0f8ff; ">
-          さっぱり系の豚骨スープと、歯応えのいい極細麺の相性が抜群</p>
-      </div>
+    <!-- <div class="container mx-auto px-6 sm:px-12 relative flex sm:flex-row ">
+          <div
+            class="pb-0 Spt-8 pb-8 sm:pt-8 pb-0 lg:pt-40 pb-48  relative z-30 bg-local bg-right lg:bg-center w-screen bg-no-repeat"
+            style="background-image: url(./top.jpg)">
+            <h1
+              class="uppercase font-black text-white leading-none tracking-wider mb-6 mt-4 text-4xl lg:text-4xl xl:text-6xl bg-white bg-opacity-30 p-2"
+              style="text-shadow: 1px 1px 2px #666666">
+              博多ラーメン長浜や 大森店</h1>
+            <p class="text-white font-roboto text-lg pl-4 " style="text-shadow: 1px 1px 2px #f0f8ff; ">
+              さっぱり系の豚骨スープと、歯応えのいい極細麺の相性が抜群</p>
+          </div>
+      </div> -->
+
+    <div class="pb-0 pt-8 pb-8 lg:pt-40 lg:pb-48 relative z-30 bg-local bg-right lg:bg-center w-screen bg-no-repeat"
+      style="background-image: url(./top.jpg)">
+      <h1
+        class="uppercase font-black text-white leading-none tracking-wider mb-6 mt-4 text-4xl lg:text-4xl xl:text-6xl bg-white bg-opacity-30 p-2"
+        style="text-shadow: 1px 1px 2px #666666">
+        博多ラーメン長浜や 大森店</h1>
+      <p class="text-white font-roboto text-lg pl-4 " style="text-shadow: 1px 1px 2px #f0f8ff; ">
+        さっぱり系の豚骨スープと、歯応えのいい極細麺の相性が抜群</p>
     </div>
+
 
     <section class="bg-white">
       <div class="max-w-6xl px-6 py-16 mx-auto">
@@ -64,13 +76,17 @@
           <div class="md:w-1/2">
             <div class="flex items-center justify-center">
               <div class="max-w-md">
-                <img class="object-cover object-center w-full rounded-md shadow" style="height: 500px;"
-                  src="./2021-05-30.jpg">
+                <div class="invisible md:visible">
+                  <div class="hidden md:inline-block pt-8">
+                    <img class="object-cover object-center w-full rounded-md shadow" style="height: 500px;"
+                      src="./2021-05-30.jpg">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="mt-8 md:mt-0 md:w-1/2 bg-local bg-center bg-no-repeat"
+          <div class="mt-8 md:mt-0 md:w-1/2 bg-local bg-center bg-no-repeat bg-contain"
             style="background-image: url(./nagahamayaicon.png)">
             <h3 class="text-5xl pl-8 font-semibold text-gray-800 leading-relaxed">博多ラーメン <br> 長浜や</h3>
             <p class="pt-16 pl-8 text-xl max-w-md mt-4 text-gray-600">
@@ -119,7 +135,7 @@
       </div>
 
       <div class="flex justify-center mt-8">
-        <a class="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg-indigo-600 rounded hover:bg-indigo-500"
+        <a class="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg--600 rounded hover:bg-indigo-500"
           href="./menu.html">メニュー一覧</a>
       </div>
 
